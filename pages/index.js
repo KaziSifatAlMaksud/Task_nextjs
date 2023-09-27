@@ -1,5 +1,5 @@
 import Cards from "./component/Cards";
-import Header from "./component/header";
+import Header from "./component/Header";
 import Slider from "./component/Slider";
 
 export default function Home() {
