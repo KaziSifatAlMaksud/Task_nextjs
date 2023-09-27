@@ -1,0 +1,39 @@
+# Set default behavior to automatically detect binary/text files
+* text=auto
+
+# Denote files that are truly binary and should not be modified
+*.jpg binary
+*.png binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
+
+# Denote files that might be binary but could be treated as text
+*.svg text
+*.json text
+*.xml text
+*.md text
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.css text
+*.scss text
+*.html text
+
+# Exclude files from linguist language statistics
+*.png linguist-detectable=false
+# *.jpg linguist-detectable=true
+*.gif linguist-detectable=false
+*.ico linguist-detectable=false
+*.pdf linguist-detectable=false
+*.woff linguist-detectable=false
+*.woff2 linguist-detectable=false
+*.eot linguist-detectable=false
+*.ttf linguist-detectable=false
+*.otf linguist-detectable=false

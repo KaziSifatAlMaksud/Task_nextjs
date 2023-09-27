@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+
+    
+}
+.home{
+    width: 100%;
+    height: 100%;
+
+    /* background-image: url('../homebg.jpg'); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    
+
+}
+.container {
+    width: 50%; 
+    display: flex;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .header{
+    text-align: center;
+    padding-top: 100px;
+    line-height: 2.0;
+    font-size: large;
+}
+.card-tittle{
+    padding: 10px 0px 10px 0px;
+}
+.card-tittle:hover{
+    padding: 10px 0px 10px 0px;
+    text-shadow: #fff 1px 0 10px;
+}
+
+  .card {
+    width: calc(30% - 20px);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Tablet View */
+  @media (max-width: 768px) {
+    .card {
+      width: calc(80% - 20px);
+    }
+  
+  
+  }
+  
+  /* Mobile View */
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+    }
+  
+}
+
+  
+  
