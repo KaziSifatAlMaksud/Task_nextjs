@@ -5,13 +5,7 @@ import React, { useState, useEffect } from 'react';
 
 const ProductShowcase = ({articles}) => {
 
-    // const [products, setProducts] = useState([]);  
-    // useEffect(() => {
-    //   fetch('/api/groceryProject')
-    //     .then(response => response.json())
-    //     .then(data => setProducts(data))
-    //     .catch(error => console.error('Error fetching products:', error));
-    // }, []);
+
   
     return (
  <>

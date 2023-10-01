@@ -22,7 +22,7 @@ export const getStaticPaths = async () => {
 
     return {
         paths,
-        fallback: false // Set to true if you want to fallback to rendering on-demand
+        fallback: false 
     }
 }
 

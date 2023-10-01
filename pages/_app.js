@@ -8,8 +8,6 @@ import bgimg from '../public/homebg.jpg'
 import 'bootstrap/dist/css/bootstrap.css';
 import "../public/css/style.css"
 
-import Cards from "../pages/component/Cards"
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect } from "react";
 
