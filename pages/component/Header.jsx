@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
     return (
     <> 
@@ -10,10 +12,10 @@ export default function Header() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <Link class="nav-link active" aria-current="page" href="/">Home</Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <Link class="nav-link" href="/we">We</Link>
                 </li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
